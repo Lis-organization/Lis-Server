@@ -1,14 +1,8 @@
-import speech_recognition as sr
-import pyttsx3
 from src.functions import nutrition
 import random
 import requests
 from src.functions.keys.keys import get_weather_key
-import eel
 
-
-eel.init("web")
-eel.start("main.html", size=(900, 1000))
 
 comands = {
 	'name': ('лис', 'лисенок', 'рыжий', 'лиз', 'лист'),
@@ -20,25 +14,6 @@ comands = {
 	}
 }
 
-
-def speak_text(text):
-	engine = pyttsx3.init()
-	voices = engine.getProperty('voices')
-	engine.setProperty('voice', 'ru')
-	for voice in voices:
-		if voice.name == 'Aleksandr':
-			engine.setProperty('voice', voice.id)
-	engine.say(text)
-	engine.runAndWait()
-
-
-def recognize_speak():
-	recognizer = sr.Recognizer()
-	with sr.Microphone(device_index=0) as source:
-		recognizer.adjust_for_ambient_noise(source)
-		audio = recognizer.listen(source)
-		text = recognizer.recognize_google(audio, language='ru-RU')
-		return text.lower()
 
 
 def replace_words_in_string(text):
