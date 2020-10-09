@@ -17,6 +17,9 @@ comands = {
 
 
 def replace_words_in_string(text):
+
+	text = text.lower()
+
 	for row in comands['name']:
 		text = text.replace(row, '').strip()
 
@@ -32,11 +35,12 @@ def check_comands(text):
 
 		greetings = ['Привет, меня зовут Лис!', 'Хай! Меня зовут ЛИИИС!']
 		random.shuffle(greetings)
-		speak_text(greetings[0])
+		print(greetings[0])
+		return greetings[0]
 
 
 	elif text in comands['cmd']['weather']:
-		speak_text(get_weather())
+		return get_weather()
 
 	if text in comands['cmd']['nutrition']:
 		pass
@@ -54,7 +58,3 @@ def get_weather(country='ru', city='Perm'):
 
 	data = response.json()
 	return str(round(data['main']['temp'] - 273.15, 2)) + ' °C, ' + data['weather'][0]['description']
-
-
-
-check_comands(replace_words_in_string(recognize_speak()))
