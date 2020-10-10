@@ -1,7 +1,6 @@
 from src.functions import nutrition
+from src.functions.web_api import get_weather
 import random
-import requests
-from src.functions.keys.keys import get_weather_key
 
 
 comands = {
@@ -47,14 +46,4 @@ def check_comands(text):
 
 
 
-
-def get_weather(country='ru', city='Perm'):
-
-	response = requests.get('https://api.openweathermap.org/data/2.5/weather?', headers={'Accept':'application/json'}, params={
-		'lang': 'ru',
-		'q': city,
-		'appid': get_weather_key(),
-		})
-
-	data = response.json()
-	return str(round(data['main']['temp'] - 273.15, 2)) + ' °C, ' + data['weather'][0]['description']
+print(check_comands(replace_words_in_string('Привет лис какая сейчас погода')))
