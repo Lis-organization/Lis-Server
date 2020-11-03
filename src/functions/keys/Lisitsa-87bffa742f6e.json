@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lisitsa-291010",
+  "private_key_id": "87bffa742f6ef2a153e58999ab17d62d6d86be3e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/o6mxVieyxuMz\nES7JOMPPuIirZh1oVjRkMlzCAiT4VJY8mPmt4Evx6PpkH3ZuGxoiFUIgpB8fkGSj\n9mRzgs+EGO+ggKuqqMMSJQ8DR03OmYO4s/Wue3471qgx33l3+8uk49c/yTiOzR/P\nwk7soXA0Rib8iVoY2dDE3kExoiClhDYDwv0qL0lL9LkPVOoCoKjs8UY7Jdoz4Ky/\nDkcq4+1XcLDp8l9ZhjNlnCAw28InDnh7xeDr6G8UpJluzWx/Ifuy8TCCbOt4JSdD\nZ81Gf4iy5FmWGTypV029FWizfWGse4qbcga1eCG2Z+GuamoQkZlQEX3y9yj4rzfU\nGJ+nld6DAgMBAAECggEAI1ySymtIZf+3Gsw34t97mk/FwELWeFM31alJXm9A3SXW\nlxXvNHtn6BqCYYlAtC6CEvnzOsyuBYgCWhL0FDB2FDz5spcrlhEP9cAq1gMJQ28m\nVCW41tpov6frX1CKPG6U9Dcql9WMfyUwkoibQaTEbJDpTr4VhvJiSIFubDcraP77\nGCUzFJOUHqaRuP+t8znKVNpRgDHHYLJ52XJP8/nDrTEWHwB6lcwMddFv8gaz4AiU\nsw7T5nXIK7R7aK4LCVpqhaT29JMQsft7Me8JCp9in+JJ/WaYS1p0Gg0Ec54DavgW\nKCWTk00rRMl2cWZWa+5rRl3VF+NXg+OZkCiHgvjxOQKBgQD5sTn+jJSXbw5E4sl1\nvHvVfoByfaTrc9a3I/yISl8C/09K6gT0lTG5ntRv/Bs9hpQ3ESqq311WotVPgnTn\nVyoa6guAZkJBrBq1D1YCzWCKqKCU/oVCHdX8/fy6/QS+5eZYwARV6gyKab95ArXA\nG29Wp940j+mp4JGOtPCtifip5wKBgQDEewEq8ucJoDbpCZtf49bZAajFH2JqY8lL\n/8oO2TNbiYtoU5NfKQo6x5DCUTCXHPxN1EsWGTWUVoemSAU0MkoPUEOwHqoIdwrd\noPAstK6vIvMt35rNOP4eq6OqVVuiGUJgvfzX1VU5ZLulmUsIc5TNjZwFwcwTKxot\n5oa6QrFrBQKBgHaK52esQldqyDF4IgEdjQUc28p/UC7gfg3QrfHerSD1KSX92IBt\n3H+tolnQLPaW0AMcyU76YIvjHrZyzyGNxlWky/UXl1kqZjuTnlgSPUVXLXXPKGDt\nXUyRIM19liUzbJqx/tzzEyUbc2X2HWepHsDbTalSsbKPBUvlJ2acXEv9AoGAC2wj\nOz331IVt68pVMBPsz5zbFOqoLAs1DqgGNSrHY5Dxe9UwAh4+rAAiGEnkC0TyHgwz\neUtp4//Lzwzs0IYD7DP8W2bM98UD6rKKg+7VIPVlMcuIElo328yarTJdK2VQiJNC\n+cE7PSTwC8aHqCwgAHs1ENidZpfg4749IuLxsYkCgYEA9CqdPSFv69pA9vXhjiFh\n1vK87CFT/JpzWZnPuGkJILXTlYEfNBGVgHE5oa3nEebqrqjSyVmv8qsrOLhGsD/H\n/FHI2nnIApDa53EiXakTKXqTERHaQ7/2Fp4oQNtCsgrgSh/xjqRCP/cUgU4MOB6s\nZUAAZA/zKf1nNIUEEBoJc/o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "school-10-service-account@lisitsa-291010.iam.gserviceaccount.com",
+  "client_id": "108771689400860322787",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/school-10-service-account%40lisitsa-291010.iam.gserviceaccount.com"
+}

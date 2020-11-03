@@ -1,10 +1,14 @@
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 
-scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('keys/lisitsa-291010-086e2c1d680b.json', scope)
-client = gspread.authorize(creds)
-sheet = client.open('dddd').sheet1
 
-telemedicine = sheet.get_all_records() # Получение всех записей в таблице
-print(telemedicine)
+def getTimeTable(class_number = 'all', class_letter = 'all'):
+
+	gc =  gspread.service_account('keys/Lisitsa-87bffa742f6e.json')
+	sheet = gc.open_by_url('https://docs.google.com/spreadsheets/d/1oE_VShFd_4DY6xynGvxPPkztb2duZoVvOtF6emfTGtI/edit?usp=sharing')
+	worksheet = sheet.worksheet('05.11 ЧТ ') # There should be a function with time generation
+
+	value = worksheet.get('J43')
+
+	return value[0]
+
+print(getTimeTable())
